@@ -1,0 +1,103 @@
+:root {
+  --text-color:#FFF;
+  --text-secondary:#d8dff2;
+  --bg-color:#F9F6ED;
+  --bg-color-secondary:#1170D1;
+  --login-borderbtm:#4e96f5;
+}
+
+
+
+body {
+    background-color: var(--bg-color) !important;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+input:focus {
+  outline:none !important;
+  
+}
+
+.adminform{
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    
+.lt::placeholder {
+  color: rgba(240, 240, 240, 0.815);
+}
+
+.form-group input {
+    width: 90%;
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid #6C6DBA;
+    outline: 0;
+    font-size: 14px;
+    padding:7px !important;
+    color: var(--text-color);
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.form-group input:focus{
+  border-bottom: 2px solid #6C6DBA;
+  width: 280px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.form-inner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.form-group label{
+  font-size: 14px;
+  cursor: text;
+}
+
+.form-group {
+  color: var(--text-color);
+  width: 300px;
+}
+
+
+.lp {
+    color: var(--text-secondary);
+}
+
+.form-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 60px !important;
+    color: #fff;
+    background:rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+
+
+  .form-inner h3 {
+    margin: 0 0 10px 0 !important;
+  }
+  .form-inner .form-group {
+    margin: 12px 0 !important;
+
+  }
+  .login-form .btn {
+    width: 100%;
+    margin: 18px 0 9px 0 !important;
+  }
+.error{
+  color: #ed4545;
+  padding:10px !important;
+
+
+}

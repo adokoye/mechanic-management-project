@@ -1,0 +1,40 @@
+.dashnav {
+    grid-area: nav;
+    height: 60px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    background-color: rgba(64, 85, 206, 0.836);
+}
+
+.nav_icon {
+    display: none;
+}
+
+.nav_icon i {
+    font-size: 26px;
+    color: var(--bg-color-secondary)
+}
+
+.dashnav-left i, a {
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.dashnav-left {
+    padding: 20px !important;
+}
+
+@media only screen and (max-width: 978px){
+    .nav_icon {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .dashnav-left{
+        display: none;
+    }
+}

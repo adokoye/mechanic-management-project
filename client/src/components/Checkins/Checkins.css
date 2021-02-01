@@ -1,0 +1,108 @@
+input:focus {
+    outline:none !important;
+    
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.268) inset !important;}
+  
+  .checkin{
+      display: flex;
+      background-color: rgba(64, 85, 206, 0.836);
+      height: 60vh;
+      margin-left: 30px;
+    }
+  
+  .checkins-inner h1 {
+      color:#fff;
+      width: 100%;
+      display: flex;
+      align-self: flex-start;
+      margin-bottom: 10px;
+  }
+  
+  .checkins-group input {
+      width: 90%;
+      font-family: inherit;
+      border: 0;
+      border-bottom: 2px solid #ffffff;
+      outline: 0;
+      font-size: 18px;
+      padding:7px !important;
+      color: #fff;
+      background: transparent;
+      transition: all 0.3s ease-in-out;
+    
+  }
+  
+  .checkins-group input:focus{
+    border-bottom: 2px #6f6f6f;
+    width: 280px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .checkins-group label{
+    font-size: 14px;
+    cursor: text;
+    color:#fff;
+  }
+  
+  .checkins-group {
+    color: var(--bg-color-secondary);
+    width: 300px;
+    padding-bottom: 20px !important;
+  }
+  
+  
+  .checkin p {
+      color: var(--text-secondary);
+  }
+  
+  .checkins-inner{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px 40px 0 40px !important;
+      border-radius: 10px;
+      height: 30vh;
+    }
+  
+    .form-inner h3 {
+      margin: 0 0 10px 0 !important;
+    }
+    .form-inner .form-group {
+      margin: 5px 0 !important;
+  
+    }
+    .login-form .btn {
+      width: 100%;
+      margin: 18px 0 9px 0 !important;
+    }
+
+    .checkin-btn {
+        margin-top: 20px !important;
+        padding: 5px 60px 5px 60px !important;
+        border: solid 2px #ebdf3c;
+        font-size: 14px;
+        font-weight: bold;
+        color: #6C6DBA;
+        border-radius: 6px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .checkin-btn:hover{
+        background-color:#29292c;
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .checkin-btn:active {
+      font-size: calc(1.25vw);
+    }
